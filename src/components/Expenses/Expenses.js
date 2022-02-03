@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Cards from "../UI/Cards";
 import ExpensesFilter from "./ExpensesFilter";
 import "./Expenses.css";

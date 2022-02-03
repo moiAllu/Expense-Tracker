@@ -1,10 +1,10 @@
-import react, { useState } from "react";
+import { useState } from "react";
 import "./ExpenseForm.css";
 
 const ExpenseForm = (props) => {
-  const [enteredTitle, setEnteredTitle] = useState();
-  const [enteredAmount, setEnteredAmount] = useState();
-  const [enteredDate, setEnteredDate] = useState();
+  const [enteredTitle, setEnteredTitle] = useState("");
+  const [enteredAmount, setEnteredAmount] = useState("");
+  const [enteredDate, setEnteredDate] = useState("");
 
   const TiltlechangeHandler = (event) => {
     setEnteredTitle(event.target.value);
